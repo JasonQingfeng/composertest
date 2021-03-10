@@ -1,0 +1,21 @@
+{
+    "name": "linjie/composer",
+    "description": "这是一个测试",
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linjie",
+            "email": "linjie@qimao.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Linjie\\Composer\\": "src/"
+        }
+    }
+}
